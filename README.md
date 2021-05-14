@@ -30,3 +30,17 @@ Next, the last four bits of each RGB value will be extracted from each pixel. Fo
 
 
 Finally, the binary digits will be converted back into RGB values and turned into a secret image.
+
+
+## Using the script
+
+First, install the necessary dependancies for the Python script to run:
+```
+pip install -r requirements.txt
+```
+
+Hide and reveal secret images as following (input image for reveal function must be PNG):
+```
+python steg.py hide --mask='shown-image.jpg' --secret='secret-image.jpg' --output='final-image.png'
+python steg.py reveal --secret='image-to-reveal.png' --output='final-image.png'
+```
