@@ -17,7 +17,9 @@ Next, the first four, or most significant bits, will be taken out of correspondi
 ![68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f323030302f312a6b704461306a74366674536365346234445141324d512e706e67](https://user-images.githubusercontent.com/71541167/118224031-33314500-b437-11eb-872d-6526fc8f1541.png)
 
 
-Lastly, the binary digits of each pixel will be turned back into RGB values to create a final image that holds the secret message.
+Lastly, the binary digits of each pixel will be turned back into RGB values to create a final image that holds the secret message:
+
+![Screenshot 2021-05-13 225147](https://user-images.githubusercontent.com/71541167/118227705-d84f1c00-b43d-11eb-86fb-db769415068e.png)
 
 
 ## Reveal a secret image
@@ -31,7 +33,7 @@ Next, the last four bits of each RGB value will be extracted from each pixel. Fo
 
 Finally, the binary digits will be converted back into RGB values and turned into a secret image:
 
-![Screenshot 2021-05-13 225147](https://user-images.githubusercontent.com/71541167/118227705-d84f1c00-b43d-11eb-86fb-db769415068e.png)
+![Screenshot 2021-05-13 225611](https://user-images.githubusercontent.com/71541167/118228062-70e59c00-b43e-11eb-8ce7-5a425d0caff9.png)
 
 
 ## Using the script
