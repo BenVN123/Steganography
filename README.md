@@ -24,6 +24,9 @@ Lastly, the binary digits of each pixel will be turned back into RGB values to c
 
 First, the RGB values of the image will be converted to 8-bit binary digits.
 
-Next, the last four bits of each RGB value will be extracted from each pixel. Four zeros will be added to the end of each binary digit to turn it back into an 8-bit binary digit. This will reduce the quality of the quality of the secret image a little, but is usually irrelevent.
+Next, the last four bits of each RGB value will be extracted from each pixel. Four zeros will be added to the end of each binary digit to turn it back into an 8-bit binary digit. This will reduce the quality of the quality of the secret image a little, but is usually irrelevent:
+
+![Screenshot 2021-05-13 221906](https://user-images.githubusercontent.com/71541167/118225110-48a76e80-b439-11eb-83ae-4668c5e69d7b.png)
+
 
 Finally, the binary digits will be converted back into RGB values and turned into a secret image.
