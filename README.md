@@ -29,7 +29,9 @@ Next, the last four bits of each RGB value will be extracted from each pixel. Fo
 ![Screenshot 2021-05-13 221906](https://user-images.githubusercontent.com/71541167/118225110-48a76e80-b439-11eb-83ae-4668c5e69d7b.png)
 
 
-Finally, the binary digits will be converted back into RGB values and turned into a secret image.
+Finally, the binary digits will be converted back into RGB values and turned into a secret image:
+
+![Screenshot 2021-05-13 225147](https://user-images.githubusercontent.com/71541167/118227705-d84f1c00-b43d-11eb-86fb-db769415068e.png)
 
 
 ## Using the script
