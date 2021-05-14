@@ -88,6 +88,10 @@ def hide(mask, secret, output):
 @click.option('--secret', required=True, type=str, help='Image that will be "decoded"')
 @click.option('--output', required=True, type=str, help='New Image')
 def reveal(secret, output):
+    if secret[-4:] != '.png':
+        print('Image must be a PNG')
+        return
+    
     a = Steganography.reveal(secret)
     a.save(output + '.png')
 
