@@ -17,7 +17,7 @@ Next, the first four, or most significant bits, will be taken out of correspondi
 ![68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f323030302f312a6b704461306a74366674536365346234445141324d512e706e67](https://user-images.githubusercontent.com/71541167/118224031-33314500-b437-11eb-872d-6526fc8f1541.png)
 
 
-Lastly, the binary digits of each pixel will be turned back into RGB values to create a final image that holds the secret message:
+Lastly, the binary digits of each pixel will be turned back into RGB values to create a final image that holds the secret message.
 
 ## Reveal a secret image
 
