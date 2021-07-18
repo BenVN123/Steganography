@@ -1,7 +1,5 @@
 # Steganography
 
-05/13/2021
-
 According to Wikipedia, [steganography](https://en.wikipedia.org/wiki/Steganography) is the practice of hiding one message in another. This technique has been used during a variety of instances throughout history, even dating back to 440 BC in Greece. This project is an implementation of a steganography method called "least significant bits" (LSB) to hide one image within another.
 
 
