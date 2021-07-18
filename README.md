@@ -42,4 +42,3 @@ Hide and reveal secret images as following (input image for reveal function must
 python steg.py hide --mask=images/shown-image.jpg --secret=images/secret-image.jpg --output=images/final-image.png
 python steg.py reveal --secret=images/image-to-reveal.png --output=images/final-image.png
 ```
-Created by Ben Nguyen
